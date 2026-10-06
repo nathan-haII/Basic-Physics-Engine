@@ -35,7 +35,7 @@ Units are SI (meters, kg, seconds) in the math, with 1 pixel = 1 cm for display,
 
 All of these are variables at the top of `projectpage.js`:
 
-| Variable | Default | Effect |
+| Variable | Default 
 | --- | --- | --- |
 | `m` |  Ball mass in kg |
 | `r` |  Ball radius in pixels (cm) |
