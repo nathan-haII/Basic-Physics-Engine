@@ -11,7 +11,7 @@ var canvas = document.getElementById('canvas'),
     dt = 0.02,  // Time step.
     e = -0.5,   // Coefficient of restitution ("bounciness")
     rho = 1.2,  // Density of air. Try 1000 for water.
-    C_d = 0.47, // Coeffecient of drag for a ball
+    C_d = 0.46, // Coeffecient of drag for a ball
     A = Math.PI * r * r / 10000 // Frontal area of the ball; divided by 10000 to compensate for the 1px = 1cm relation
     ;
 
