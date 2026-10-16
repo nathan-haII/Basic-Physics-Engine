@@ -4,10 +4,52 @@
 <head>
     <meta charset="utf-8">
     <title>Project</title>
+    <link rel="stylesheet" href="projectpage.css">
 </head>
 
 <body>
-    <canvas id="canvas" width="800" height="600"></canvas>
+    <div class="layout">
+        <canvas id="canvas" width="800" height="600"></canvas>
+
+        <div class="controls">
+            <h2>New ball</h2>
+
+            <label>Size (radius)
+                <input type="range" id="radius" min="5" max="50" step="1" value="15">
+                <span id="radiusVal" class="val"></span> px
+            </label>
+
+            <label>Mass
+                <input type="range" id="mass" min="1" max="100" step="1" value="10">
+                <span id="massVal" class="val"></span> kg
+            </label>
+
+            <label>Bounciness
+                <input type="range" id="bounce" min="0" max="1" step="0.05" value="0.5">
+                <span id="bounceVal" class="val"></span>
+            </label>
+
+            <label>Launch speed, horizontal
+                <input type="range" id="speedX" min="-10" max="10" step="0.5" value="0">
+                <span id="speedXVal" class="val"></span> m/s
+            </label>
+
+            <label>Launch speed, vertical
+                <input type="range" id="speedY" min="-10" max="10" step="0.5" value="0">
+                <span id="speedYVal" class="val"></span> m/s
+            </label>
+
+            <label>Color
+                <input type="color" id="color" value="#e63946">
+            </label>
+
+            <label class="inline">
+                <input type="checkbox" id="randomColor"> Random color
+            </label>
+
+            <button id="clearBtn" type="button">Clear all balls</button>
+        </div>
+    </div>
     <script src="projectpage.js"></script>
 </body>
 
