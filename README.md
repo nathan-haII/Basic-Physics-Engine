@@ -1,6 +1,6 @@
 # Ball Physics Engine
 
-A small canvas-based physics demo in plain JavaScript. A red ball drops from the top of the canvas, is pulled down by gravity, slowed by air resistance, and bounces off the floor, losing energy with each bounce.
+A small canvas-based physics demo in JavaScript. A red ball drops from the top of the canvas, is pulled down by gravity, slowed by air resistance, and bounces off the floor, losing energy with each bounce.
 
 ## Files
 
